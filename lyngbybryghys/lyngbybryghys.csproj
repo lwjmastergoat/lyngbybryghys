@@ -94,8 +94,28 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\CSS\bootstrap-grid.css" />
+    <Content Include="Content\CSS\bootstrap-grid.min.css" />
+    <Content Include="Content\CSS\bootstrap-reboot.css" />
+    <Content Include="Content\CSS\bootstrap-reboot.min.css" />
+    <Content Include="Content\CSS\bootstrap.css" />
+    <Content Include="Content\CSS\bootstrap.min.css" />
+    <Content Include="Content\Scripts\bootstrap.bundle.js" />
+    <Content Include="Content\Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Content\Scripts\bootstrap.js" />
+    <Content Include="Content\Scripts\bootstrap.min.js" />
     <Content Include="packages.config" />
     <Content Include="Views\Shared\_MainLayout.cshtml" />
+    <Content Include="Content\CSS\bootstrap-grid.css.map" />
+    <Content Include="Content\CSS\bootstrap-grid.min.css.map" />
+    <Content Include="Content\CSS\bootstrap-reboot.css.map" />
+    <Content Include="Content\CSS\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\CSS\bootstrap.css.map" />
+    <Content Include="Content\CSS\bootstrap.min.css.map" />
+    <Content Include="Content\Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Content\Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Content\Scripts\bootstrap.js.map" />
+    <Content Include="Content\Scripts\bootstrap.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -111,11 +131,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content\CSS\" />
     <Folder Include="Content\Images\Generelt\" />
     <Folder Include="Content\Images\Produkter\" />
     <Folder Include="Content\Images\Slettet\" />
-    <Folder Include="Content\Scripts\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
