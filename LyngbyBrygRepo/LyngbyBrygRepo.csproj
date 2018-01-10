@@ -44,7 +44,7 @@
     <Compile Include="DDMF\Conn.cs" />
     <Compile Include="DDMF\Mapper.cs" />
     <Compile Include="Models\AdminTabel.cs" />
-    <Compile Include="Models\KategoryTable.cs" />
+    <Compile Include="Models\KategoriTabel.cs" />
     <Compile Include="Models\KontaktTabel.cs" />
     <Compile Include="Models\KundeOrdreTabel.cs" />
     <Compile Include="Models\KundeTabel.cs" />
