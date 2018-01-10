@@ -9,7 +9,6 @@ namespace LyngbyBrygRepo
     public class Class1
     {
 
-      bum bum bum
-       lålålå  
+      hrallo
     }
 }
