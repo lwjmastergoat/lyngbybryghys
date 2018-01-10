@@ -7,7 +7,7 @@ using Duser;
 
 namespace LyngbyBrygRepo
 {
-    public class KategoriTable
+    public class KategoriTabel
     {
         public int ID { get; set; }
         public string Navn { get; set; }

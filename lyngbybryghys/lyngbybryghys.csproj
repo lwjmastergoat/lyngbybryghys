@@ -129,11 +129,14 @@
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\BestillingOptions.cs" />
+    <Compile Include="ViewModels\ForsideOptions.cs" />
+    <Compile Include="ViewModels\KontaktOptions.cs" />
+    <Compile Include="ViewModels\NyhederOptions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\Images\Generelt\" />
     <Folder Include="Content\Images\Produkter\" />
-    <Folder Include="ViewModels\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
