@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LyngbyBrygRepo
+namespace LyngbyBrygRepo.Models
 {
-    public class Class1
+    class Bruger
     {
-
-      bambus bjørn
     }
 }

@@ -40,10 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="DDMF\AutoFac.cs" />
     <Compile Include="DDMF\Conn.cs" />
     <Compile Include="DDMF\Mapper.cs" />
+    <Compile Include="Models\Bruger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
