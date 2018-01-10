@@ -113,6 +113,7 @@
   <ItemGroup>
     <Folder Include="Content\CSS\" />
     <Folder Include="Content\Images\Produkter\" />
+    <Folder Include="Content\Images\Slettet\" />
     <Folder Include="Content\Scripts\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
