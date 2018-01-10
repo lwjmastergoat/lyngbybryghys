@@ -15,7 +15,5 @@ namespace LyngbyBrygRepo
         public string Beskrivelse { get; set; }
         public string Billede { get; set; }
         public decimal Pris { get; set; }
-
-
     }
 }
