@@ -118,6 +118,12 @@
     <Folder Include="Content\Scripts\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LyngbyBrygRepo\LyngbyBrygRepo.csproj">
+      <Project>{59d679de-fb71-449c-9d0d-0510bb03f9ae}</Project>
+      <Name>LyngbyBrygRepo</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
