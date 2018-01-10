@@ -13,7 +13,7 @@ namespace Duser
         /// <returns>Retunere en MS SQL connection string</returns>
         public static SqlConnection GetCon()
         {
-            SqlConnection con = new SqlConnection("server=IP_ADRESSE;database=DATABASE;uid=BRUGER;pwd=KODEORD;MultipleActiveResultSets=True");
+            SqlConnection con = new SqlConnection("server=sql.itcn.dk\\VID;database=chri24m52.VID;uid=chri24m5.VID;pwd=6s04kNwEW4;MultipleActiveResultSets=True");
             return con;
         }
 
