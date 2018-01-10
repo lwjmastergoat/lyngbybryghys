@@ -16,5 +16,6 @@ namespace LyngbyBrygRepo
         public string Billede { get; set; }
         public decimal Pris { get; set; }
 
+
     }
 }
