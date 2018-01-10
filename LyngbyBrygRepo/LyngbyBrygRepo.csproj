@@ -45,6 +45,7 @@
     <Compile Include="DDMF\Mapper.cs" />
     <Compile Include="Models\AdminTabel.cs" />
     <Compile Include="Models\Bruger.cs" />
+    <Compile Include="Models\KategoryTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
