@@ -9,6 +9,6 @@ namespace LyngbyBrygRepo
     public class Class1
     {
 
-      hrallo
+      bambus bjørn
     }
 }
