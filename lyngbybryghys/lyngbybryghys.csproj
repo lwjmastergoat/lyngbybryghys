@@ -116,7 +116,6 @@
     <Content Include="Content\Scripts\bootstrap.bundle.min.js.map" />
     <Content Include="Content\Scripts\bootstrap.js.map" />
     <Content Include="Content\Scripts\bootstrap.min.js.map" />
-    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -138,6 +137,7 @@
   <ItemGroup>
     <Folder Include="Content\Images\Generelt\" />
     <Folder Include="Content\Images\Produkter\" />
+    <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LyngbyBrygRepo\LyngbyBrygRepo.csproj">
