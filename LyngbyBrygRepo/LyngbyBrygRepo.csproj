@@ -43,6 +43,13 @@
     <Compile Include="DDMF\AutoFac.cs" />
     <Compile Include="DDMF\Conn.cs" />
     <Compile Include="DDMF\Mapper.cs" />
+    <Compile Include="Factories\BrugerFac.cs" />
+    <Compile Include="Factories\IndholdFac.cs" />
+    <Compile Include="Factories\KategoriFac.cs" />
+    <Compile Include="Factories\KontaktFac.cs" />
+    <Compile Include="Factories\KundeFac.cs" />
+    <Compile Include="Factories\OrdreFac.cs" />
+    <Compile Include="Factories\ProduktFac.cs" />
     <Compile Include="Models\AdminTabel.cs" />
     <Compile Include="Models\KategoriTabel.cs" />
     <Compile Include="Models\KontaktTabel.cs" />
@@ -55,7 +62,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Factories\" />
     <Folder Include="Models\R_Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
