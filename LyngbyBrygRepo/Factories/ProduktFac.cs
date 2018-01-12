@@ -10,5 +10,11 @@ namespace LyngbyBrygRepo.Factories
 {
     public class ProduktFac
     {
+
+
+
+
+
+
     }
 }

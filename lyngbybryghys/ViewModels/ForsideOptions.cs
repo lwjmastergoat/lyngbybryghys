@@ -10,7 +10,8 @@ namespace lyngbybryghys
     public class ForsideOptions
     {
         public List<Nyhedstabel> Nyheder { get; set; }
-        public List<OmTabel> Omos { get; set; }
+
+        public OmTabel Omos { get; set; }
 
     }
 }

@@ -9,7 +9,7 @@ namespace lyngbybryghys
 {
     public class KontaktOptions
     {
-        public List<KontaktTabel> Kontakter { get; set; }
+        public KontaktTabel Kontakter { get; set; }
 
     }
 }
