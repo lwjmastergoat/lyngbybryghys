@@ -58,7 +58,7 @@
     <Compile Include="Models\Nyhedstabel.cs" />
     <Compile Include="Models\OmTabel.cs" />
     <Compile Include="Models\OrdreDetaljerTabel.cs" />
-    <Compile Include="Models\ProduktTabel.cs" />
+    <Compile Include="Models\ProduktTabellen.cs" />
     <Compile Include="Models\R_Models\ProduktKategoriJoin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
