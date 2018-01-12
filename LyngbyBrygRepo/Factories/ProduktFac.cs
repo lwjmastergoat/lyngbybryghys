@@ -8,13 +8,17 @@ using Duser;
 
 namespace LyngbyBrygRepo.Factories
 {
-    public class ProduktFac
+    public class ProduktFac:AutoFac<ProduktTabel>
     {
+        public List<ProduktTabel> GetAll()
+        {
+            String SQL = "SELECT ProduktTabellen.Navn, Beskrivelse, Billede, Pris, Alkohol, Farve, Bitterhed, Gærtype, KategoriTabel.Navn FROM ProduktTabellen JOIN KategoriTabel on ProduktTabellen.KategoriID = KategoriTabel.ID";
+
+            return ExecuteSQL<ProduktTabel>(SQL);
+        }
 
 
-
-
-
+        
 
     }
 }
