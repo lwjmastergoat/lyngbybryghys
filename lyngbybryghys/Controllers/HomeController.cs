@@ -14,7 +14,12 @@ namespace lyngbybryghys.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return Redirect("http://google.com");
+            return View();
+        }
+
+        public ActionResult Kontakt()
+        {
+            return View();
         }
     }
 }
