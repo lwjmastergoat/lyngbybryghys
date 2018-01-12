@@ -59,11 +59,11 @@
     <Compile Include="Models\OmTabel.cs" />
     <Compile Include="Models\OrdreDetaljerTabel.cs" />
     <Compile Include="Models\ProduktTabel.cs" />
+    <Compile Include="Models\R_Models\ProduktKategoriJoin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
-    <Folder Include="Models\R_Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
